@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-11T19:56:19 EDT" name="Suite" finished-at="2023-09-11T19:56:19 EDT" duration-ms="89">
+    <groups>
+      <group name="regression">
+        <method signature="igonringTest.test2()[pri:0, instance:testNG_day1.igonringTest@7d4f9aae]" name="test2" class="testNG_day1.igonringTest"/>
+        <method signature="prioritizeTests.loginWithValidUsernameInvalidPasword()[pri:2, instance:testNG_day1.prioritizeTests@4310d43]" name="loginWithValidUsernameInvalidPasword" class="testNG_day1.prioritizeTests"/>
+        <method signature="prioritizeTests.loginWithInvalidEmailFormat()[pri:4, instance:testNG_day1.prioritizeTests@4310d43]" name="loginWithInvalidEmailFormat" class="testNG_day1.prioritizeTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="igonringTest.test1()[pri:0, instance:testNG_day1.igonringTest@7d4f9aae]" name="test1" class="testNG_day1.igonringTest"/>
+        <method signature="prioritizeTests.loginWithIValidUsernameInvalidPasword()[pri:222, instance:testNG_day1.prioritizeTests@4310d43]" name="loginWithIValidUsernameInvalidPasword" class="testNG_day1.prioritizeTests"/>
+      </group> <!-- smoke -->
+      <group name="loadTesting">
+        <method signature="prioritizeTests.loginWithValidUsernameValidPassword()[pri:1, instance:testNG_day1.prioritizeTests@4310d43]" name="loginWithValidUsernameValidPassword" class="testNG_day1.prioritizeTests"/>
+        <method signature="prioritizeTests.loginWithIValidUsernameInvalidPasword()[pri:222, instance:testNG_day1.prioritizeTests@4310d43]" name="loginWithIValidUsernameInvalidPasword" class="testNG_day1.prioritizeTests"/>
+      </group> <!-- loadTesting -->
+    </groups>
+    <test started-at="2023-09-11T19:56:19 EDT" name="Test" finished-at="2023-09-11T19:56:19 EDT" duration-ms="89">
+      <class name="testNG_day1.igonringTest">
+        <test-method signature="test1()[pri:0, instance:testNG_day1.igonringTest@7d4f9aae]" started-at="2023-09-11T19:56:19 EDT" name="test1" finished-at="2023-09-11T19:56:19 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:testNG_day1.igonringTest@7d4f9aae]" started-at="2023-09-11T19:56:19 EDT" name="test2" finished-at="2023-09-11T19:56:19 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- testNG_day1.igonringTest -->
+      <class name="testNG_day1.prioritizeTests">
+        <test-method signature="loginWithValidUsernameValidPassword()[pri:1, instance:testNG_day1.prioritizeTests@4310d43]" started-at="2023-09-11T19:56:19 EDT" name="loginWithValidUsernameValidPassword" finished-at="2023-09-11T19:56:19 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameValidPassword -->
+        <test-method signature="loginWithValidUsernameInvalidPasword()[pri:2, instance:testNG_day1.prioritizeTests@4310d43]" started-at="2023-09-11T19:56:19 EDT" name="loginWithValidUsernameInvalidPasword" finished-at="2023-09-11T19:56:19 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameInvalidPasword -->
+        <test-method signature="loginWithInvalidEmailFormat()[pri:4, instance:testNG_day1.prioritizeTests@4310d43]" started-at="2023-09-11T19:56:19 EDT" name="loginWithInvalidEmailFormat" finished-at="2023-09-11T19:56:19 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidEmailFormat -->
+        <test-method signature="loginWithIValidUsernameInvalidPasword()[pri:222, instance:testNG_day1.prioritizeTests@4310d43]" started-at="2023-09-11T19:56:19 EDT" name="loginWithIValidUsernameInvalidPasword" finished-at="2023-09-11T19:56:19 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithIValidUsernameInvalidPasword -->
+      </class> <!-- testNG_day1.prioritizeTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

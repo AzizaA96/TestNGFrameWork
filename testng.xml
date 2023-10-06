@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="params2">
+    <classes>
+      <class name="testNG_day1.runingTestSample"/>
+      <class name="testNG_day1.prioritizeTests"/>
+      <class name="testNG_day2.dependencyTestUsingAnnotations"/>
+      <class name="testNG_day2.groupingTests"/>
+      <class name="testNG_day1.igonringTest"/>
+    </classes>
+  </test> <!-- params2 -->
+</suite> <!-- Suite -->
